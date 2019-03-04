@@ -1,5 +1,16 @@
-<template> </template>
+<template>
+    <span>
+        <home-hero></home-hero>
+    </span>
+</template>
 
 <script>
-export default {};
+import HomeHero from '@/components/HomeHero';
+
+export default {
+    name: 'home',
+    components: {
+        HomeHero
+    }
+};
 </script>
